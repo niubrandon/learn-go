@@ -6,7 +6,7 @@ import (
 	bs "github.com/niubrandon/learn-go/basics"
 )
 
-func Main() {
+func main() {
 	var it *bs.IntTree
 	it = it.Insert(5)
 	it = it.Insert(3)
