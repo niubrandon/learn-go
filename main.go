@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	_ b "github.com/niubrandon/learn-go/basics"
+	bs "github.com/niubrandon/learn-go/basics"
 )
 
 func Main() {
-	var it *b.IntTree
+	var it *bs.IntTree
 	it = it.Insert(5)
 	it = it.Insert(3)
 	it = it.Insert(10)
