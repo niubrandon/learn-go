@@ -17,3 +17,13 @@
 ## run migration
 
 `migrate -database ${POSTGRESQL_URL} -path db/migrations up`
+
+## linter
+
+`brew install golangci-lint`
+`brew upgrade golangci-lint`
+
+`go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.54.2`
+
+`golangci-lint run`
+`golangci-lint help linters`

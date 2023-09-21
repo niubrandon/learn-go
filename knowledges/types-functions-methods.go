@@ -1,17 +1,53 @@
-package basics
+package knowledges
 
 import (
 	"fmt"
 	"time"
 )
 
+/* type person struct {
+	name string
+	age int
+	pet string
+}
+var fred person
+bob := person{}
+julia := person{
+	"Julia",
+	40,
+	"cat",
+}
+beth := person{
+	age: 30,
+	name: "Beth"
+} */
+
+// anonymous structs
+// var person struct {
+// 	name string
+// 	age int
+// 	pet string
+// }
+
+// person.name = "bob"
+// person.age = 50
+// person.pet = "dog"
+
+// pet := struct {
+// 	name string
+// 	kind string
+// }{
+// 	name: "Fido",
+// 	kind: "dog",
+// }
+
 // statically typed lanugages with both built-in types and user-defined types
 // user-defined types: have underlying type of the struct literal that follows
-type Person struct {
-	FirstName string
-	LastName string
-	Age int
-}
+// type Person struct {
+// 	FirstName string
+// 	LastName string
+// 	Age int
+// }
 // abstract type: specifies what a type should do, but not how it is done
 // concrete type: specifies what and how
 // concrete type: use any primitive type or compount type literal
