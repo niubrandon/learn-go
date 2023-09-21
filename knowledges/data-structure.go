@@ -1,5 +1,7 @@
 package knowledges
-
+import (
+	"fmt"
+)
 /*
 strings and runes and bytes
 */

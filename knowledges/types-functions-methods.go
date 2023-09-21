@@ -43,11 +43,11 @@ beth := person{
 
 // statically typed lanugages with both built-in types and user-defined types
 // user-defined types: have underlying type of the struct literal that follows
-type Person struct {
-	FirstName string
-	LastName string
-	Age int
-}
+// type Person struct {
+// 	FirstName string
+// 	LastName string
+// 	Age int
+// }
 // abstract type: specifies what a type should do, but not how it is done
 // concrete type: specifies what and how
 // concrete type: use any primitive type or compount type literal
