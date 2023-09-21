@@ -58,6 +58,7 @@ func main() {
 	// TO-DO setup envs
 	// TO-DO create a production postgres database
 	connStr := "postgres://pqgotest:password@localhost/pqgotest?sslmode=verify-full"
+	
 	db, err := sql.Open("postgres", connStr)
 	if err != nil {
 		log.Fatal(err)
